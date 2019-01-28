@@ -1,0 +1,38 @@
+/*style*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.main-container{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+header{
+	display:flex;
+	align-items:center;
+
+	height:100%;
+	
+}
+
+
+header > nav{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	height:55px;
+	background-color:magenta;
+	object-position:fixed;
+	width:100%;
+}
+.main-nav{
+	display:flex;
+	list-style:none;
+}
+.main-nav > li{
+	margin: 0 15px;
+}
